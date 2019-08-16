@@ -17,6 +17,10 @@ public class SkiResultRpository<T extends BiathlonContestant> {
         }
     }
 
+    public int countContestants(){
+       return listOfBiathlonContestants.size();
+    }
+
     public void listSpecificPlace(int counter) {
         System.out.println(listOfBiathlonContestants.get(counter));
     }
