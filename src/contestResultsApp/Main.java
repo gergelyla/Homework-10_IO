@@ -29,7 +29,8 @@ public class Main {
 
     private static void readContestantInfoFromFile(SkiResultRpository<BiathlonContestant> listOfBiathlonContestants) {
         try {
-            Scanner fileReader = new Scanner(new FileReader("test\\BiathlonResults.csv"));
+            String filePath="test"+File.separator+"BiathlonResults.csv";
+            Scanner fileReader = new Scanner(new FileReader(filePath));
             fileReader.useDelimiter(",");
             while (fileReader.hasNextLine()) {
                 String lines = fileReader.nextLine().trim();
