@@ -1,6 +1,6 @@
-package objectDefinitions;
+package contestResultsApp.objectDefinitions;
 
-import java.util.Objects;
+import java.time.LocalTime;
 
 public class BiathlonContestant implements Comparable<BiathlonContestant> {
     private int contestantNumber;

@@ -1,6 +1,8 @@
-import objectDefinitions.BiathlonContestant;
-import objectDefinitions.SkiResultRpository;
-import objectDefinitions.SkiTimeResult;
+package contestResultsApp;
+
+import contestResultsApp.objectDefinitions.BiathlonContestant;
+import contestResultsApp.objectDefinitions.SkiResultRpository;
+import contestResultsApp.objectDefinitions.SkiTimeResult;
 
 import java.io.*;
 import java.time.LocalTime;

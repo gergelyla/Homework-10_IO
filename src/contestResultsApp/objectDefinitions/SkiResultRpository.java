@@ -1,4 +1,4 @@
-package objectDefinitions;
+package contestResultsApp.objectDefinitions;
 
 import java.util.ArrayList;
 import java.util.Collections;

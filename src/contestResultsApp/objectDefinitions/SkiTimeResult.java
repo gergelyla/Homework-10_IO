@@ -1,4 +1,4 @@
-package objectDefinitions;
+package contestResultsApp.objectDefinitions;
 
 import java.time.LocalTime;
 import java.util.Objects;
